@@ -4,11 +4,11 @@
     "slug": "TodoList",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/TodoList-icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/TodoList-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/TodoList-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jhunel.TodoList"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/TodoList-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "36891fb1-9278-4b67-adf4-61b322e23bf2"
+      }
     }
   }
 }
