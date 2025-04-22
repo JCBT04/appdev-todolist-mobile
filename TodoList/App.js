@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import TodoList from './screens/TodoList.js'
+import TodoList from './screens/TodoList'
 
 const Stack = createNativeStackNavigator();
 
